@@ -12,7 +12,9 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'MSM/E'
+            title: 'MSM/E',
+            template: './src/index.html',
+            inject: 'body'
         }),
         new ExtractTextPlugin("styles.css", {
             allChunks: true

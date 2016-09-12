@@ -1,3 +1,3 @@
-rootProject.name = 'MSME-React'
+rootProject.name = 'reactjs-app'
 
 include ':ui'
